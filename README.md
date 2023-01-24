@@ -11,7 +11,7 @@ writing in the input fields.
 - VANILLA JS
 - CSS grid
 
-visit the live demo [https://maryan121.github.io/interactive-card-details/]
+see the live demo [https://maryan121.github.io/interactive-card-details/]
 
 #some of the screenshots are below wanna see....
 ![interactive-card-details-screenshot](https://user-images.githubusercontent.com/88990104/214237351-04971c95-37d2-4488-b7b1-4d97bd579a66.jpg)
