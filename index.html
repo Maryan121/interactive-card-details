@@ -44,23 +44,23 @@
     <button class="continue-btn" id="continue-btn">continue</button>
   </div>
   <form action="#" method="post" class="form">
-      <label for="name">Cardholder Name</label>
-      <input type="text" placeholder="e.g. Jane Appleseed" required oninput="nameError();" id="name-input">
+      <label>Cardholder Name</label>
+      <input type="text" placeholder="e.g. Jane Appleseed" oninput="nameError();" id="name-input">
       <span id="nameError">please enter your name</span>
-    <label for="card-number" > Card Number</label>
-    <input type="text" placeholder="e.g. 1234 5678 9123 0000"  maxlength="16" required oninput="numbersOnly();" minlength="16" id="number-input">
+    <label> Card Number</label>
+    <input type="text" placeholder="e.g. 1234 5678 9123 0000"  maxlength="16" oninput="numbersOnly();" minlength="16" id="number-input">
     <span id="cardNumberError" >invalid format or invalid card</span>
     <div class="expire-sec">
       <div class="same">
-        <label for="expire-date">Exp. Date (MM/YY)</label>
+        <label>Exp. Date (MM/YY)</label>
         <div class="expire-date" id="expire-date">
-          <input class="expire-m-y" type="text" placeholder="MM" oninput="moError();" required maxlength="2" minlength="2" id="M-input">
-          <input class="expire-m-y" type="text" placeholder="YY" oninput="yeError();" required maxlength="2" minlength="2" id="Y-input">
+          <input class="expire-m-y" type="text" placeholder="MM" oninput="moError();"  maxlength="2" minlength="2" id="M-input">
+          <input class="expire-m-y" type="text" placeholder="YY" oninput="yeError();"  maxlength="2" minlength="2" id="Y-input">
         </div>
         <span id="dateError" >numbers only</span>
       </div>
       <div class="cvc-sec ">
-        <label for="cvc">CVC</label>
+        <label>CVC</label>
             <div>
               <input id="cvc-input" class="cvc-input"  oninput="cError();" required  type="text" placeholder=" e.g. 123" maxlength="3" minlength="2">
             </div>              
@@ -69,7 +69,7 @@
       </div>
       
     </div>
-    <button type="submit" id="confirmBtn" required>confirm</button>
+    <button type="submit" id="confirmBtn">confirm</button>
   </form>
 </main>
 
