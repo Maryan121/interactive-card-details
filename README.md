@@ -10,6 +10,7 @@ writing in the input fields.
 - CSS
 - VANILLA JS
 - CSS grid
+
 visit the live demo [https://maryan121.github.io/interactive-card-details/]
 
 #some of the screenshots are below wanna see....
